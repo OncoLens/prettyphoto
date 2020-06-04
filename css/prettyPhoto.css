@@ -523,3 +523,23 @@
 			margin: 0 0 5px 15px;
 			z-index: 9999;
 		}
+
+.pp_pic_holder.expanded .pp_content_container,
+.pp_pic_holder.expanded .pp_content,
+.pp_pic_holder.expanded #pp_full_res,
+.pp_pic_holder.expanded #fullResImage,
+.pp_pic_holder.expanded .pp_hoverContainer {
+	max-height: none !important;
+	height: auto !important;
+}
+
+.pp_pic_holder.expanded .pp_content {
+	width: auto !important;
+}
+
+.pp_pic_holder.expanded .pp_content_container .pp_details {
+	float: none;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+		
